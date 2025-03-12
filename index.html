@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prajapati Darshit - Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Montserrat:wght@400;700&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Sidebar -->
+  <div class="sidebar" id="sidebar">
+    <!-- Sidebar close Button -->
+    <button class="close-btn" id="closeBtn">
+      <i class="fas fa-times"></i>
+    </button>
+    <div class="profile"> 
+      <img src="./images/profaile.jpg" alt="Prajapati Darshit">
+      <h3>Prajapati Darshit</h3>
+      <p>Web Developer & Designer</p>
+    </div>
+    <ul>
+      <li><a href="#home" class="active"><i class="fas fa-home"></i> Home</a></li>
+      <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+      <li><a href="#projects"><i class="fas fa-briefcase"></i> Projects</a></li>
+      <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+    </ul>
+    <div class="social-links">
+      <a href=""><i class="fab fa-github"></i></a>
+      <a href=""><i class="fab fa-linkedin"></i></a>
+      <a href=""><i class="fab fa-twitter"></i></a>
+      <a href=""><i class="fab fa-instagram"></i></a>
+    </div>
+  </div>
+
+  <!-- Sidebar Toggle Button -->
+  <button class="menu-btn" id="menuBtn">
+    <i class="fas fa-bars"></i>
+  </button>
+  
+  <!-- Theme Toggle Button -->
+  <button class="theme-btn" id="themeBtn">
+    <i class="fas fa-moon"></i>
+  </button>
+
+  <!-- Home Section -->
+  <section id="home">
+    <h1>Prajapati Darshit</h1>
+    <p>BCA Student | <span class="typewriter">Web Developer & Designer</span></p>
+    <div class="cta-buttons">
+      <a href="#projects" class="btn btn-primary"><i class="fas fa-eye"></i> View My Work</a>
+      <a href="#contact" class="btn btn-outline"><i class="fas fa-paper-plane"></i> Contact Me</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <div class="about-content">
+      <div class="about-img">
+        <img src="./images/About_image.jpg" alt="Prajapati Darshit">
+      </div>
+      <div class="about-text">
+        <p>I'm Prajapati Darshit, a BCA student passionate about web development, UI/UX design, and creating innovative digital solutions. I'm dedicated to crafting beautiful, functional websites and applications that deliver exceptional user experiences.</p>
+        <p>With a strong foundation in HTML, CSS, and JavaScript, I enjoy bringing creative ideas to life through clean code and intuitive design. I'm constantly learning new technologies and techniques to stay on the cutting edge of web development.</p>
+        
+        <div class="skills">
+          <h3>My Skills</h3>
+          
+          <div class="skill-item">
+            <div class="skill-name">
+              HTML & CSS <span>85%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 95%;"></div>
+            </div>
+          </div>
+          
+          <div class="skill-item">
+            <div class="skill-name">
+              JavaScript <span>75%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 80%;"></div>
+            </div>
+          </div>
+          
+          <div class="skill-item">
+            <div class="skill-name">
+              UI/UX Design <span>80%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 85%;"></div>
+            </div>
+          </div>
+          
+          <div class="skill-item">
+            <div class="skill-name">
+              DBMS <span>70%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 70%;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <h2>My Projects</h2>
+    <p>Here are some of the projects I've worked on recently that showcase my skills and passion for web development.</p>
+    
+    <div class="projects-grid">
+      <div class="project-card">
+        <div class="project-img">
+          <img src="./images/Digital_Clock.png" alt="Digital Clock">
+          <!-- <i class="far fa-clock"></i> -->
+        </div>
+        <div class="project-info">
+          <h3>Digital Clock</h3>
+          <p>A modern, responsive digital clock application with multiple themes and timezone support.</p>
+          <div class="project-links">
+            <a href="./Task-1/digital_clock.html"><i class="fas fa-link"></i> Demo</a>
+            <a href="https://github.com/Darshitp12/DIGITAL_CLOCK/blob/main/digital_clock.html"><i class="fab fa-github"></i> Code</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="project-card">
+        <div class="project-img">
+          <img src="./images/Todo_list_app.png" alt="ToDo List">
+        
+        </div>
+        <div class="project-info">
+          <h3>ToDo List</h3>
+          <p>A feature-rich task management application with categories, priorities, and local storage.</p>
+          <div class="project-links">
+            <a href="./Task-2/TODO_LIST.html"> Demo</a>
+            <a href="https://github.com/Darshitp12/TUDO-LIST"><i class="fab fa-github"></i> Code</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="project-card">
+        <div class="project-img">
+          <img src="./images/Color_Theme_Switcher.png " alt="Color Theme Switcher">
+      
+        </div>
+        <div class="project-info">
+          <h3> Color Theme Switcher</h3>
+          <p>An interactive  Color Theme Switcher with  score tracking, and multiple difficulty levels.</p>
+          <div class="project-links">
+            <a href="./Task-3/index.html"><i class="fas fa-link"></i> Demo</a>
+            <a href="#"><i class="fab fa-github"></i> Code</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Get In Touch</h2>
+    <p>Feel free to reach out if you have any questions or would like to work together on a project.</p>
+    
+    <div class="contact-container">
+      <div class="contact-form">
+        <form id="contactForm">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="email">Your Email</label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" placeholder="Enter subject" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="message">Your Message</label>
+            <textarea id="message" placeholder="Write your message here..." required></textarea>
+          </div>
+          
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+      
+      <div class="contact-info">
+        <div class="contact-item">
+          <i class="fas fa-envelope"></i>
+          <span>darshitprajapati3874@gmail.com</span>
+        </div>
+        
+        <div class="contact-item">
+          <i class="fas fa-phone"></i>
+          <span>+91 00 0 000 0000 </span>
+        </div>
+        
+        <div class="contact-item">
+          <i class="fab fa-github"></i>
+          <span><a href="#">github.com/prajapati-darshit</a></span>
+        </div>
+        
+        <div class="contact-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <span>Ahmedabad, Gujarat, India</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Prajapati Darshit. All Rights Reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
